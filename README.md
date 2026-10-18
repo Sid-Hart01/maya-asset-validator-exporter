@@ -109,14 +109,16 @@ An asset may have several result records: one for each check, and potentially se
 
 Output filenames use the short transform name, while full DAG paths identify scene objects:
 
+```text
 |DungeonGroup|WallGroup|Wall1  ->  Wall1.fbx
-
+```
 
 Different full DAG paths can share a short name, so these conflict:
 
+```text
 |Barrel1  ->  Barrel1.fbx
 |BarrelGroup|Barrel1 ->  Barrel1.fbx
-
+```
 
 Names differing only in case also conflict within the batch. Namespace colons are rejected rather than silently removed. `COM` is valid; `CON`, `NUL`, `COM1` and the other implemented device names are reserved.
 
