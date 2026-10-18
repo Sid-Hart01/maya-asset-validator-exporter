@@ -6,9 +6,10 @@ A Python tool for checking selected static mesh assets in Autodesk Maya and expo
 **Version:** 1.0
 
 **Demo:**  https://youtu.be/kMkgAXHOxt4 
-(Check out the above video to understand the working of the tool.)
+ Check out the video to understand the working of the tool.
 
 **Portfolio:** https://siddharthdixit.artstation.com/
+ Check out my portfolio website to see what else I do! :)
 
 ## Overview
 
